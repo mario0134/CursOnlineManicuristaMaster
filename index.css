@@ -173,7 +173,8 @@ footer.garantia h3 {
   .imagen-header,
   .imagen-para-ti,
   .imagen-contenido,
-  .imagen-bono {
+  .imagen-bono,
+  .imagen-oferta img {
     width: 100%;
     height: auto;
   }
@@ -186,6 +187,7 @@ footer.garantia h3 {
     padding: 10px;
   }
 }
+
 
 
 
