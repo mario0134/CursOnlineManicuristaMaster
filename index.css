@@ -177,6 +177,12 @@ footer.garantia h3 {
   .imagen-oferta img {
     width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .imagen-oferta {
+    padding: 0 10px;
   }
 
   .bono {
@@ -187,6 +193,7 @@ footer.garantia h3 {
     padding: 10px;
   }
 }
+
 
 
 
