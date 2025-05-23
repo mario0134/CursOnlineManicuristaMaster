@@ -1,0 +1,191 @@
+/* index.css */
+
+/* Tipografía */
+body {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #fff0f5;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #b30059;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Contenedor general */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #f9dede, #ffe4e1);
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 5px solid #eab3cb;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 1.3em;
+  color: #8a004f;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.descripcion-curso {
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+/* Imágenes */
+.imagen-header,
+.imagen-para-ti,
+.imagen-contenido,
+.imagen-bono {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+/* Botones */
+.boton-principal,
+.boton-contacto,
+.boton-oferta,
+.boton-whatsapp {
+  display: inline-block;
+  background-color: #b30059;
+  color: #fff;
+  padding: 12px 25px;
+  margin: 12px 8px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1em;
+  transition: background 0.3s;
+}
+
+.boton-principal:hover,
+.boton-contacto:hover,
+.boton-oferta:hover,
+.boton-whatsapp:hover {
+  background-color: #d63384;
+}
+
+/* Secciones */
+section {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background-color: #fff8fb;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.15em;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* Oferta y precios */
+.precio-normal {
+  font-size: 1.2em;
+  color: #777;
+  font-style: italic;
+}
+
+.precio-descuento {
+  font-size: 1.6em;
+  color: #a10050;
+  font-weight: bold;
+}
+
+.fecha-limite {
+  font-size: 1.2em;
+  color: #b30059;
+  margin-bottom: 10px;
+}
+
+.mensaje-importante {
+  color: #d10000;
+  font-weight: bold;
+}
+
+/* Garantía */
+footer.garantia {
+  background-color: #fde6ec;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer.garantia h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .hero, section, footer.garantia {
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .descripcion-curso,
+  .subtitulo,
+  ul li,
+  p {
+    font-size: 1em;
+  }
+
+  .boton-principal,
+  .boton-contacto,
+  .boton-oferta,
+  .boton-whatsapp {
+    font-size: 1em;
+    padding: 10px 18px;
+  }
+
+  .imagen-header,
+  .imagen-para-ti,
+  .imagen-contenido,
+  .imagen-bono {
+    width: 100%;
+    height: auto;
+  }
+
+  .bono {
+    margin-bottom: 20px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+
+
